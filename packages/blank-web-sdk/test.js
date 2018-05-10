@@ -10,7 +10,8 @@ var multer = require("multer");
 var multipart = multer();
 
 var config = {
-    mode: "development",
+    mode: "production",
+    watch: false,
     entry: [
         "whatwg-fetch",
         "./test/BlankClientTest.js",
